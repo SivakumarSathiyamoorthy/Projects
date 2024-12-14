@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMtXdp3m+sES9Ve2FgA4fiwAAAAACAAAAAAAQZgAAAAEAACAAAAABg+GvYxPI+dJkyzUxouwXy6KjIoI4WWIUGwBXqSkwEAAAAAAOgAAAAAIAACAAAACxaoFX17UNYLj+K9ct13u8KKRvlmsDYXrCpt+Q982DZIAAAAAKPt/j7+oBqa37MtNeQcRDbm7SjaAGrruooqsdVLKfkvNaLZbS/Xw0Icq/MXVG5hxDHuqSWQOKlu+zLbNsz6MvDXvIOfbDSAkBz0cqKSbJLUmUx5IMgAtSsF1ThX/4Nj+g+58Cms6PAqzmdhmmeSEhYLwIUjybfDDZVBC5DtInA0AAAADZSWnWGx29mF55xa96cc6JtGsFd4YWBTaI0rTmHCmNI5KWkVspuLV1yeg5xII/KMScN8ajiGLiVPWdak3DmLiC</EncryptedPassword>
+    <History>True|2024-05-15T16:27:12.3595043Z;True|2024-05-15T20:42:28.4205145+05:30;True|2024-05-15T20:12:15.6364104+05:30;True|2024-05-15T20:06:44.2235599+05:30;True|2024-05-15T19:37:48.6343954+05:30;True|2024-05-15T19:12:27.6577844+05:30;True|2024-05-15T04:54:57.7583924+05:30;True|2024-05-15T04:12:57.6147031+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebAPI_CRUDOperations.Models.BrandContext">
+      <Value>Data Source=myserver-sksm.database.windows.net,1433%3bInitial Catalog=MyDB%3bUser ID=sivakumar%3bPassword=Ashwin02%29%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

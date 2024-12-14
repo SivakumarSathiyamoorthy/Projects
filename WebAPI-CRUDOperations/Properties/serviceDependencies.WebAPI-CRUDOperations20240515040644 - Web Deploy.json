@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/WebAPI-CRUDOperations/apis/WebAPI-CRUDOperations",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/WebAPI-CRUDOperations20240515040644/providers/Microsoft.ServiceLinker/linkers/BrandCS_B03FA2A583",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/myserver-sksm/databases/MyDB",
+      "type": "mssql.azure",
+      "connectionId": "BrandCS",
+      "dynamicId": null
+    }
+  }
+}
